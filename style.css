@@ -1,0 +1,40 @@
+body {
+    width: 800px;
+    height: 600px;
+    text-align: center;
+}
+
+p{
+  font: 16px bold Arial, Helvetica, sans-serif;
+}
+
+form {
+    display: inline-block;
+}
+
+h2{
+  color: blue;
+}
+
+.Form{
+  border: 3px blue solid;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 200px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
